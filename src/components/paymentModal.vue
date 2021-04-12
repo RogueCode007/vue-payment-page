@@ -4,7 +4,7 @@
         <div class="float-right" @click='emitclose'>
           <span class="iconify cancel text-red-500" data-icon="ic:sharp-cancel" data-inline="false"></span>
         </div>
-        <div class=" mt-20 w-1/3 md:w-1/4 mx-auto">
+        <div class=" mt-20 w-1/3 md:w-1/4 mx-auto lg:pl-4">
           <span class="iconify check text-green-500 block" data-icon="bx:bxs-check-circle" data-inline="false"></span>
         </div>
         <p class=" mt-3 font-bold">Payment complete!</p>
