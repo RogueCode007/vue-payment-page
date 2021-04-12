@@ -183,7 +183,7 @@ export default {
     passed(str){
       if(str == 'card'){
         this.cardNumberError = false
-        console.log(this.cardNumberError)
+        
       }else{
         this.expirationDateError = false
       }
@@ -191,10 +191,10 @@ export default {
     checkSecurityCode(){
       if(this.securityCode.length == 3 && Number.isInteger(parseInt(this.securityCode))){
         this.securityCodeError = false;
-        console.log(this.securityCodeError)
+        
       }else{
         this.securityCodeError = true;
-        console.log(this.securityCodeError)
+        
       }
     }
   },
